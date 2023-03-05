@@ -1,40 +1,1637 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <head>
+        <meta charset="utf-8" />
 
-		<title>reveal.js</title>
+        <title>
+            V Hack 2023 — Ideation &amp; Business Thinking: Get Ready for
+            Take-Off!
+        </title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+        <meta
+            name="description"
+            content="A framework for easily creating beautiful presentations using HTML"
+        />
+        <meta name="author" content="Hakim El Hattab" />
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta
+            name="apple-mobile-web-app-status-bar-style"
+            content="black-translucent"
+        />
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+        <link rel="stylesheet" href="dist/reset.css" />
+        <link rel="stylesheet" href="dist/reveal.css" />
+        <link rel="stylesheet" href="dist/theme/black.css" id="theme" />
+
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+
+        <style type="text/css">
+            html *,
+            body {
+                font-family: "Open Sans", sans-serif !important;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="reveal">
+            <!-- Any section element inside of this container is displayed as a slide -->
+            <div class="slides">
+                <!-- Intro slides -->
+                <section data-background-image="img/v-hack-bg.png">
+                    <section>
+                        <p
+                            style="
+                                font-size: 4.5rem;
+                                text-align: left;
+                                margin: auto;
+                                font-weight: 600;
+                            "
+                        >
+                            Ideation &amp; Business Thinking
+                        </p>
+                        <p
+                            style="
+                                font-size: 2.5rem;
+                                text-align: left;
+                                margin: auto;
+                                font-weight: 300;
+                            "
+                        >
+                            Get Ready for Take-Off!
+                        </p>
+                    </section>
+                </section>
+
+                <!-- Speaker intro -->
+                <section data-background="#212324" style="position: static">
+                    <div style="vertical-align: middle; margin: 7rem 0 0 0">
+                        <p
+                            style="
+                                font-size: 3.5rem;
+                                text-align: left;
+                                font-weight: 600;
+                            "
+                        >
+                            Meet your Speaker
+                        </p>
+
+                        <table>
+                            <tr>
+                                <td style="padding: 0; min-width: 370px">
+                                    <img
+                                        src="img/1x1 Profile Picture.jpg"
+                                        width="370"
+                                        height="370"
+                                        style="
+                                            object-fit: cover;
+                                            display: flex;
+                                            margin: 0;
+                                        "
+                                    />
+                                </td>
+                                <td style="vertical-align: middle">
+                                    <ul
+                                        style="
+                                            font-size: 1.5rem;
+                                            font-weight: 300;
+                                        "
+                                    >
+                                        <li style="margin-bottom: 15px">
+                                            Muhammad Rahiman (call me
+                                            <span
+                                                style="
+                                                    font-weight: 500;
+                                                    color: #60a5fa;
+                                                "
+                                                >Ray</span
+                                            >)
+                                        </li>
+                                        <li style="margin-bottom: 15px">
+                                            BCS (Software Engineering),
+                                            Universiti Malaya
+                                        </li>
+                                        <li style="margin-bottom: 15px">
+                                            Software Engineer, Dell Technologies
+                                        </li>
+                                        <li style="margin-bottom: 15px">
+                                            <span
+                                                style="
+                                                    font-weight: 500;
+                                                    color: #60a5fa;
+                                                "
+                                                >Champion</span
+                                            >, Dell Digital Virtual Hack2Hire
+                                            2021
+                                        </li>
+                                        <li style="margin-bottom: 15px">
+                                            <span
+                                                style="
+                                                    font-weight: 500;
+                                                    color: #60a5fa;
+                                                "
+                                                >Top 10 Finalist</span
+                                            >
+                                            &
+                                            <span
+                                                style="
+                                                    font-weight: 500;
+                                                    color: #60a5fa;
+                                                "
+                                            >
+                                                Best Presenter at the Grand
+                                                Finals</span
+                                            >, RHB's Get Your Hack On 2023:
+                                            ASEAN Edition
+                                        </li>
+                                        <li style="margin-bottom: 15px">
+                                            Mentored for
+                                            <span
+                                                style="
+                                                    font-weight: 500;
+                                                    color: #60a5fa;
+                                                "
+                                                >UMHackathon 2021</span
+                                            >,
+                                            <span
+                                                style="
+                                                    font-weight: 500;
+                                                    color: #60a5fa;
+                                                "
+                                            >
+                                                Dell Digital Virtual Hack2Hire
+                                                2022
+                                            </span>
+                                            &
+                                            <span
+                                                style="
+                                                    font-weight: 500;
+                                                    color: #60a5fa;
+                                                "
+                                                >Kitahack 2023</span
+                                            >
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- List of Topics -->
+                <section data-background="#212324">
+                    <p
+                        style="
+                            font-size: 3.5rem;
+                            text-align: left;
+                            font-weight: 600;
+                        "
+                    >
+                        Topics
+                    </p>
+                    <ol
+                        style="
+                            font-weight: 300;
+                            font-size: 2.5rem;
+                            text-align: left;
+                            margin-right: 20rem;
+                        "
+                    >
+                        <li>
+                            <span style="font-weight: 500; color: #60a5fa"
+                                >Identifying</span
+                            >
+                            the problem statement
+                        </li>
+                        <li>
+                            <span style="font-weight: 500; color: #60a5fa"
+                                >Brainstorming</span
+                            >
+                            the solution
+                        </li>
+                        <li>
+                            <span style="font-weight: 500; color: #60a5fa"
+                                >Monetising</span
+                            >
+                            the solution
+                        </li>
+                    </ol>
+                </section>
+
+                <!-- Slide intro -->
+                <section data-background="#212324">
+                    <p
+                        style="
+                            font-size: 3.5rem;
+                            text-align: left;
+                            margin: 13rem 0 0 0;
+                            position: absolute;
+                            vertical-align: middle;
+                        "
+                    >
+                        Drop your questions anytime<br />
+                        via
+                        <strong style="font-weight: 600; color: #16a34a"
+                            >slido</strong
+                        >! <br />
+                        <span style="font-size: 2.5rem; font-weight: 300"
+                            >Code: #5187 876</span
+                        >
+                    </p>
+                    <iframe
+                        src="https://app.sli.do/event/iHt6JQMjxZJNzVaGsqC88v"
+                        width="300"
+                        style="position: relative; left: 30rem; height: 40rem"
+                    ></iframe>
+                </section>
+
+                <!-- Part 1: Identifying the Problem Statement -->
+                <section
+                    data-background="#1e3a8a"
+                    data-background-transition="zoom"
+                >
+                    <section>
+                        <p
+                            style="
+                                font-size: 4.5rem;
+                                text-align: left;
+                                margin: auto;
+                                font-weight: 600;
+                            "
+                        >
+                            Identifying the Problem Statement
+                        </p>
+                        <p
+                            style="
+                                font-size: 2.5rem;
+                                text-align: left;
+                                margin: auto;
+                                font-weight: 300;
+                            "
+                        >
+                            Part 1
+                        </p>
+                    </section>
+                    <section>
+                        <blockquote
+                            cite="https://hbr.org/2012/09/are-you-solving-the-right-problem"
+                        >
+                            &ldquo;The
+                            <strong style="color: #67e8f9">rigor</strong>
+                            with which a problem is defined is the most
+                            important factor in finding a good solution.&rdquo;
+                        </blockquote>
+                    </section>
+                    <section>
+                        <p
+                            style="
+                                font-size: 5rem;
+                                text-align: left;
+                                position: absolute;
+                                bottom: -15rem;
+                            "
+                        >
+                            Understand the case study
+                            <strong style="color: #67e8f9">properly</strong> &
+                            <strong style="color: #67e8f9"
+                                >break it down</strong
+                            >
+                            into parts
+                        </p>
+                    </section>
+                    <section>
+                        <ul>
+                            <li style="margin-bottom: 20px">
+                                <strong style="color: #67e8f9"
+                                    >Narrow down</strong
+                                >
+                                the scope (e.g. potential target
+                                groups/personas, core issues).
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                List down all initial
+                                <strong style="color: #67e8f9"
+                                    >follow-up questions</strong
+                                >
+                                via the nested WHYs &amp; HOWs method.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Be
+                                <strong style="color: #67e8f9">pedantic</strong
+                                >. Scrutinise every wording and its meaning.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                <strong style="color: #67e8f9">Validate</strong>
+                                every assumption made. Ask for clarification
+                                from mentors/organiser.
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <p style="font-size: 5rem; text-align: left">
+                            Let's do an
+                            <strong style="color: #67e8f9">example</strong>!
+                        </p>
+                    </section>
+                    <section>
+                        <p
+                            style="
+                                font-size: 3rem;
+                                text-align: left;
+                                bottom: -15rem;
+                            "
+                        >
+                            &ldquo;<span style="font-style: italic"
+                                >How might we help the young adults in
+                                developing financial literacy to grow their
+                                wealth at an early age?</span
+                            >
+                            &rdquo;
+                            <span
+                                style="
+                                    font-weight: 300;
+                                    font-style: normal;
+                                    font-size: 1.5rem;
+                                "
+                                >— RHB Get Your Hack On 2023</span
+                            >
+                        </p>
+                        <ul style="font-weight: 300; font-size: 2rem">
+                            <li style="margin-bottom: 20px" class="fragment">
+                                What are the potential target groups?
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                What does 'growing their wealth' mean?
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                How early is 'early age'?
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                What are factors that currently affects
+                                financial literacy development for said target
+                                group?
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                If existing solutions already exist, what are
+                                some of the limitations?
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <p style="font-size: 5rem; text-align: left">
+                            How to get
+                            <strong style="color: #67e8f9">inspirations</strong>
+                            for potential problem statements?
+                        </p>
+                    </section>
+
+                    <section>
+                        <p
+                            style="
+                                font-size: 4rem;
+                                text-align: left;
+                                bottom: -15rem;
+                            "
+                        >
+                            1. Ask the
+                            <strong style="color: #67e8f9"> Internet</strong> 🌐
+                        </p>
+                        <ul>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Google
+                                <span class="fragment">(or Bing 🙃).</span>
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Research papers/articles.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Previous solutions of other hackathons.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                ChatGPT? 😌
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <p
+                            style="
+                                font-size: 4rem;
+                                text-align: left;
+                                bottom: -15rem;
+                            "
+                        >
+                            2. Ask
+                            <strong style="color: #67e8f9"> others</strong> 👥
+                        </p>
+                        <ul>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Look for &ldquo;<span style="font-style: italic"
+                                    >boundary spanners</span
+                                >&rdquo;. The most useful input tends to come
+                                from people who understand but are not fully
+                                part of your world.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Conduct polls, surveys &amp; short interviews.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Ask on social media e.g. Twitter, Instagram
+                                stories, Tik Tok.
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <img src="img/IMG_7227.jpg" />
+                    </section>
+
+                    <section>
+                        <p
+                            style="
+                                font-size: 4rem;
+                                text-align: left;
+                                bottom: -15rem;
+                            "
+                        >
+                            3. Ask
+                            <strong style="color: #67e8f9"> yourself</strong> 🙋🏻‍♂️
+                        </p>
+                        <ul>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Have you experienced a problem related to the
+                                case study?
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Do you have any personal experience that could
+                                be used as basis for a problem statement?
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <p style="font-size: 4rem; text-align: left">
+                            Best strategy is to have your problem statement
+                            supported by both
+                            <strong style="color: #67e8f9"
+                                >statistical (data-driven)</strong
+                            >
+                            &
+                            <strong style="color: #67e8f9"
+                                >anecdotal (emotion-driven)</strong
+                            >
+                            evidence.
+                        </p>
+                    </section>
+
+                    <section>
+                        <p style="font-size: 5rem; text-align: left">
+                            How to know you're solving the
+                            <strong style="color: #67e8f9"
+                                >right problems</strong
+                            >?
+                        </p>
+                    </section>
+
+                    <section>
+                        <!-- <p style="font-size: 4rem; text-align: left">
+                            The Slow Elevator Problem
+                        </p> -->
+                        <!-- <img src="img/R1701D_WEDELL_PROBLEMFRAMING_A.png" />
+
+                        <p style="text-align: left; font-weight: 300">
+                            Imagine you're an owner of an office building &amp; your
+                            tenants are complaining about having to wait long
+                            for the elevator. <br /><br />
+
+                            How would you frame the problem?
+                        </p> -->
+
+                        <table style="margin: 1rem 0 0 0">
+                            <tr>
+                                <td style="padding: 0; min-width: 300px">
+                                    <img
+                                        src="img/4ca53d_579528b9f0c8417c84232d35aed38597_mv2.webp"
+                                    />
+                                </td>
+                                <td style="vertical-align: middle">
+                                    <p
+                                        style="
+                                            font-size: 2.2rem;
+                                            font-weight: 300;
+                                        "
+                                    >
+                                        Imagine you're an owner of an office
+                                        building &amp; your tenants are
+                                        complaining about having to wait long
+                                        for the elevator. <br /><br />
+
+                                        How would you
+                                        <strong style="color: #67e8f9"
+                                            >frame the problem</strong
+                                        >?
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </section>
+
+                    <section>
+                        <img src="img/R1701D_WEDELL_PROBLEMFRAMING_A.png" />
+                    </section>
+
+                    <section>
+                        <img src="img/R1701D_WEDELL_PROBLEMFRAMING_B.png" />
+                    </section>
+
+                    <section>
+                        <ul>
+                            <!-- <li style="margin-bottom: 20px" class="fragment">
+                                The idea that a single root problem exists may
+                                be misleading. Real-world issues are typically
+                                multicausal &amp; can be addressed in many ways.
+                            </li> -->
+                            <li style="margin-bottom: 20px">
+                                Note that we're not saying the initial problem
+                                framing is wrong.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Takeaway: Real-world issues are typically
+                                <strong style="color: #67e8f9"
+                                    >multicausal</strong
+                                >
+                                &amp; can be addressed in many ways.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Identifying a different aspect of the problem
+                                can
+                                <strong style="color: #67e8f9"
+                                    >spark solutions</strong
+                                >
+                                to problems that have seemed intractable.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                <strong style="color: #67e8f9">Expand</strong>
+                                the solution space by opening our minds to the
+                                <strong style="color: #67e8f9"
+                                    >frustrations/pain</strong
+                                >
+                                being felt.
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <img src="img/CleanShot 2023-03-04 at 00.31.06.png" />
+                    </section>
+
+                    <section>
+                        <p style="font-size: 4rem; text-align: left">
+                            The point of reframing is not to find the “real”
+                            problem.<br /><br />Rather, it's to see if there is
+                            a
+                            <strong style="color: #67e8f9"
+                                >better one to solve</strong
+                            >.
+                        </p>
+                    </section>
+
+                    <section>
+                        <ul style="font-size: 2rem">
+                            <li style="margin-bottom: 20px">
+                                Is there a
+                                <strong style="color: #67e8f9"
+                                    >clear &amp; pressing demand</strong
+                                >
+                                for a solution to this problem?
+                            </li>
+
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Is this problem just
+                                <strong style="color: #67e8f9"
+                                    >temporary/occasional</strong
+                                >? Were there days when the problem didn't exist
+                                (positive exceptions)?
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Are existing solutions so
+                                <strong style="color: #67e8f9"
+                                    >insufficient</strong
+                                >
+                                that it warrants an urgent &amp; better
+                                alternative?
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Are the
+                                <strong style="color: #67e8f9"
+                                    >pain points</strong
+                                >
+                                related to the problem relatable &amp; easy to
+                                empathise?
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Ask your guts: Is the problem
+                                <span style="font-style: italic">really</span>
+                                worth solving?
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <blockquote
+                            cite="https://hbr.org/2012/09/are-you-solving-the-right-problem"
+                        >
+                            &ldquo;If I were given one hour to save the planet,
+                            I would spend
+                            <strong style="color: #67e8f9">
+                                59 minutes defining the problem</strong
+                            >
+                            and
+                            <strong style="color: #67e8f9">
+                                one minute resolving it</strong
+                            >.&rdquo;
+                        </blockquote>
+                        — Albert Einstein
+                    </section>
+                </section>
+
+                <!-- <section data-background="#212324">
+                    <p
+                        style="
+                            font-size: 3rem;
+                            text-align: left;
+                            margin: 15rem 0 0 0;
+                            position: absolute;
+                            vertical-align: middle;
+                            top: -3rem;
+                        "
+                    >
+                        Roses are red<br />Cristiano Ronaldo<br />What time is
+                        it?<br />Time to check the
+                        <strong style="font-weight: 600; color: #16a34a"
+                            >slido</strong
+                        >!
+                    </p>
+                    <iframe
+                        src="https://app.sli.do/event/iHt6JQMjxZJNzVaGsqC88v"
+                        width="300"
+                        style="position: relative; left: 30rem; height: 40rem"
+                    ></iframe>
+                </section> -->
+
+                <!-- Slido recap #1 -->
+                <section data-background="#212324">
+                    <iframe
+                        src="https://wall.sli.do/event/iHt6JQMjxZJNzVaGsqC88v"
+                        style="height: 50vh; width: 100vw; position: relative"
+                    ></iframe>
+                </section>
+
+                <!-- Part 2: Brainstorming the Solutions -->
+                <section
+                    data-background="#312e81"
+                    data-background-transition="zoom"
+                >
+                    <section>
+                        <p
+                            style="
+                                font-size: 4.5rem;
+                                text-align: left;
+                                margin: auto;
+                                font-weight: 600;
+                            "
+                        >
+                            Brainstorming the Solution
+                        </p>
+                        <p
+                            style="
+                                font-size: 2.5rem;
+                                text-align: left;
+                                margin: auto;
+                                font-weight: 300;
+                            "
+                        >
+                            Part 2
+                        </p>
+                    </section>
+                    <section>
+                        <p
+                            style="
+                                font-size: 5rem;
+                                text-align: left;
+                                position: absolute;
+                                bottom: -15rem;
+                            "
+                        >
+                            <strong style="color: #d8b4fe">Optimise</strong> how
+                            you
+                            <strong style="color: #d8b4fe">conduct</strong>
+                            your ideation by
+                            <strong style="color: #d8b4fe"
+                                >deferring judgement</strong
+                            >
+                        </p>
+                    </section>
+                    <section>
+                        <p
+                            style="
+                                font-size: 5rem;
+                                text-align: left;
+                                bottom: -15rem;
+                            "
+                        >
+                            But first,
+                            <strong style="color: #d8b4fe">why</strong> should
+                            we
+                            <strong style="color: #d8b4fe"
+                                >defer judgement</strong
+                            >?
+                        </p>
+                        <p style="font-size: 2.5rem; text-align: left">
+                            Isn't it faster to generate & evaluate our ideas
+                            simultaneously?
+                        </p>
+                    </section>
+                    <section>
+                        <p style="font-size: 4rem; text-align: left">
+                            Imagine this scenario:
+                        </p>
+                        <ul style="font-size: 2.2rem">
+                            <li style="margin-bottom: 20px" class="fragment">
+                                One of your team members volunteers an idea. 🙋🏻‍♂️
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Then, automatically &amp; on cue, another member
+                                tells everyone
+                                <strong style="color: #fca5a5"
+                                    >why it won't work</strong
+                                >. 🤨
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                The idea is
+                                <strong style="color: #fca5a5"
+                                    >withdrawn</strong
+                                >
+                                &amp; never captured. 🙅🏻‍♂️
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Even worse, a
+                                <strong style="color: #fca5a5"
+                                    >long argument ensues</strong
+                                >
+                                back &amp; forth as to the merits of the idea.
+                                🤬
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Eventually, everyone becomes
+                                <strong style="color: #fca5a5"
+                                    >frustrated</strong
+                                >. 😠
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                No solution idea gets
+                                <strong style="color: #fca5a5"
+                                    >shortlisted</strong
+                                >
+                                in the end. 😓
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <ul>
+                            <li style="margin-bottom: 20px">
+                                Avoid the tendency to think of a possibility
+                                &amp; then
+                                <strong style="color: #d8b4fe"
+                                    >find fault</strong
+                                >
+                                with it almost immediately.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Remember: All ideas are
+                                <strong style="color: #d8b4fe">
+                                    innocent</strong
+                                >
+                                until proven guilty! Shoot them down later, just
+                                not now.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Creativity demands both
+                                <strong style="color: #d8b4fe">
+                                    divergent &amp; convergent thinking</strong
+                                >, but not at the same time.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Ideas should be allowed to be expressed
+                                <strong style="color: #d8b4fe">as is</strong>,
+                                without criticism, censure or requests for
+                                detail*.
+                            </li>
+                            <small
+                                style="font-size: 1rem; font-weight: 300"
+                                class="fragment"
+                                >*unless the ways they are expressed are simply
+                                not understood.</small
+                            >
+                        </ul>
+                    </section>
+                    <section>
+                        <p style="font-size: 4rem">
+                            Beware of
+                            <strong style="color: #d8b4fe">idea killers</strong>
+                        </p>
+                        <img height="500px" src="img/idea-killers.webp" />
+                    </section>
+                    <section>
+                        <p style="font-size: 4rem; text-align: left">
+                            TLDR:<br /><br />Would your drive your car with
+                            <strong style="color: #d8b4fe"
+                                >one foot on the gas</strong
+                            >
+                            &amp;
+                            <strong style="color: #d8b4fe"
+                                >another on the brake</strong
+                            >
+                            simultaneously?
+                        </p>
+                    </section>
+                    <section>
+                        <p style="font-size: 5rem; text-align: left">
+                            Okay, so how to
+                            <strong style="color: #d8b4fe"
+                                >defer judgement</strong
+                            >?
+                        </p>
+                    </section>
+                    <section>
+                        <p style="font-size: 3rem; text-align: left">
+                            What do these authors have in common?
+                        </p>
+                        <table style="margin: 0">
+                            <tr>
+                                <td style="padding: 0; text-align: center">
+                                    <img
+                                        src="https://hips.hearstapps.com/hmg-prod/images/maya_angelou_photo_by_deborah_feingold_corbis_entertainment_getty_533084708.jpg"
+                                    />
+                                    <small style="text-align: cƒenter"
+                                        >Maya Angelou</small
+                                    >
+                                </td>
+                                <td style="padding: 0; text-align: center">
+                                    <img
+                                        src="https://images.wsj.net/im-316136/square"
+                                        width="387"
+                                    />
+                                    <small style="text-align: center"
+                                        >Ernest Hemingway</small
+                                    >
+                                </td>
+                                <td style="padding: 0; text-align: center">
+                                    <img
+                                        src="https://pyxis.nymag.com/v1/imgs/cb9/cea/97f87d0783bf40c1cc3e4a492dcd8f8920-21-joan-didion.rsquare.w700.jpg"
+                                        width="559"
+                                    />
+                                    <small style="text-align: center"
+                                        >Joan Didion</small
+                                    >
+                                </td>
+                            </tr>
+                        </table>
+                    </section>
+                    <section>
+                        <ul>
+                            <li style="margin-bottom: 20px">
+                                Maya Angelou would
+                                <strong style="color: #d8b4fe"
+                                    >write in the morning</strong
+                                >
+                                &amp;
+                                <strong style="color: #d8b4fe"
+                                    >edit in the afternoon</strong
+                                >.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Ernest Hemingway did the same.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Didion says that she
+                                <strong style="color: #d8b4fe"
+                                    >writes for as long as she can in the
+                                    morning</strong
+                                >. Then in the
+                                <strong style="color: #d8b4fe"
+                                    >late afternoon</strong
+                                >, she'll have a drink &amp;
+                                <strong style="color: #d8b4fe"
+                                    >goes over</strong
+                                >
+                                what she wrote earlier in the day.
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <p
+                            style="
+                                font-size: 4rem;
+                                text-align: left;
+                                bottom: -15rem;
+                            "
+                        >
+                            Employ the
+                            <strong style="color: #d8b4fe">50/50 rule</strong>
+                        </p>
+                        <ul>
+                            <li style="margin-bottom: 20px">
+                                Conduct
+                                <strong style="color: #d8b4fe">two</strong>
+                                different brainstorming sessions separately.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                The first session → Right brain: Generate &amp;
+                                document the ideas. Share thoughts &amp;
+                                possibilities.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                The second session → Left brain: Compare.
+                                Scrutinise. Weigh. Evaluate. Sort. Choose.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Your team members will feel more at ease →<br /><span
+                                    style="color: #86efac"
+                                    >↑</span
+                                >
+                                Productivity,
+                                <span style="color: #86efac">↑</span>
+                                Creativity,
+                                <span style="color: #86efac">↑</span> Solution.
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <blockquote
+                            cite="http://www.ideachampions.com/weblogs/archives/2016/06/why_defer_judgm.shtml"
+                        >
+                            &ldquo;The imaginative mind must be given
+                            <strong style="color: #d8b4fe">free rein</strong>
+                            to run without the constraints of the saddle,
+                            stirrup and harness of the judicial mind — else you
+                            put yourself &amp; your participants in danger of
+                            <strong style="color: #d8b4fe"
+                                >brainstorm asphyxiation</strong
+                            >.&rdquo;
+                        </blockquote>
+                        — Idea Champions
+                    </section>
+                    <section>
+                        <p
+                            style="
+                                font-size: 5rem;
+                                text-align: left;
+                                position: absolute;
+                            "
+                        >
+                            <strong style="color: #d8b4fe">Novel</strong> ≠
+                            <strong style="color: #d8b4fe">Good</strong
+                            >.<br /><strong style="color: #d8b4fe"
+                                >Unique</strong
+                            >
+                            ≠ <strong style="color: #d8b4fe">Novel</strong>.
+                        </p>
+                    </section>
+                    <section>
+                        <ul>
+                            <li style="margin-bottom: 20px">
+                                A
+                                <strong style="color: #d8b4fe"
+                                    >winning solution</strong
+                                >
+                                doesn't have to be
+                                <strong style="color: #d8b4fe"
+                                    >entirely new</strong
+                                >. This is a huge &amp; common<strong
+                                    style="color: #d8b4fe"
+                                >
+                                    misconception</strong
+                                >.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                It's fine if your solution builds/improves on
+                                top of existing ones. That's called
+                                <strong style="color: #d8b4fe"
+                                    >innovation</strong
+                                >.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Your solution can still be
+                                <strong style="color: #d8b4fe">unique</strong>
+                                without having to be completely novel.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Regardless,
+                                <strong style="color: #d8b4fe">identify</strong>
+                                &amp;
+                                <strong style="color: #d8b4fe">assess</strong>
+                                your solution's
+                                <strong style="color: #d8b4fe"
+                                    >main differentiator/WOW factor/USP</strong
+                                >.
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <p
+                            style="
+                                font-size: 5rem;
+                                text-align: left;
+                                position: absolute;
+                            "
+                        >
+                            <strong style="color: #d8b4fe">Validate</strong>
+                            your idea
+                        </p>
+                    </section>
+                    <section>
+                        <ul style="font-size: 2rem">
+                            <li style="margin-bottom: 20px">
+                                Does the solution effectively
+                                <strong style="color: #d8b4fe">solve</strong>
+                                the
+                                <strong style="color: #d8b4fe"
+                                    >problem statement(s)</strong
+                                >? What
+                                <strong style="color: #d8b4fe"
+                                    >pain points</strong
+                                >
+                                are your product relieving? Don't be
+                                <strong
+                                    style="color: #d8b4fe; font-style: italic"
+                                >
+                                    syok sendiri</strong
+                                >!
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                What is so
+                                <strong style="color: #d8b4fe">unique</strong>
+                                about your solution that stops anyone from using
+                                a similar alternative? How can it compete in the
+                                market?
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Is there a
+                                <strong style="color: #d8b4fe"
+                                    >steep learning curve</strong
+                                >
+                                and
+                                <strong style="color: #d8b4fe"
+                                    >high cognitive effort</strong
+                                >
+                                for your target users to operate your solution?
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Is your solution merely a
+                                <strong style="color: #d8b4fe"
+                                    >low-hanging fruit</strong
+                                >? e.g. UI/UX improvements
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Can the
+                                <strong style="color: #d8b4fe">MVP</strong> of
+                                this solution be
+                                <strong style="color: #d8b4fe"
+                                    >implemented</strong
+                                >
+                                within the hackathon timeframe?
+                            </li>
+                            <!-- <li style="margin-bottom: 20px" class="fragment">
+                                What are the odds that other teams might propose
+                                the same solution?
+                            </li> -->
+                        </ul>
+                    </section>
+
+                    <section>
+                        <p
+                            style="
+                                font-size: 4rem;
+                                text-align: left;
+                                text-align: center;
+                            "
+                        >
+                            Let's try out an
+                            <strong style="color: #d8b4fe">exercise</strong>!
+                        </p>
+                        <table style="margin: auto">
+                            <tr>
+                                <td style="padding: 0; text-align: center">
+                                    <img
+                                        src="img/qrcode_drive.google.com.png"
+                                        width="400"
+                                    /><br />
+                                    <small style="text-align: center"
+                                        >Sample Case Study</small
+                                    >
+                                </td>
+                                <td style="padding: 0; text-align: center">
+                                    <img
+                                        src="img/qrcode_padlet.com.png"
+                                        width="400"
+                                    /><br />
+                                    <small style="text-align: center"
+                                        >Padlet</small
+                                    >
+                                </td>
+                            </tr>
+                        </table>
+                    </section>
+                    <section>
+                        <blockquote
+                            cite="https://www.litmos.com/blog/articles/optimizing-ideation"
+                        >
+                            &ldquo;Ultimately, ideation is a
+                            <strong style="color: #d8b4fe">
+                                probabilistic game</strong
+                            >. You want to maximize the likelihood that you'll
+                            get a suitable idea.&rdquo;
+                        </blockquote>
+                        — Clark Quinn
+                    </section>
+                </section>
+
+                <!-- Slido recap #2 -->
+                <section data-background="#212324">
+                    <iframe
+                        src="https://wall.sli.do/event/iHt6JQMjxZJNzVaGsqC88v"
+                        style="height: 50vh; width: 100vw; position: relative"
+                    ></iframe>
+                </section>
+
+                <!-- Part 3: Monetising the Solution -->
+                <section
+                    data-background="#14532d"
+                    data-background-transition="zoom"
+                >
+                    <section>
+                        <p
+                            style="
+                                font-size: 4.5rem;
+                                text-align: left;
+                                margin: auto;
+                                font-weight: 600;
+                            "
+                        >
+                            Monetising the Solution
+                        </p>
+                        <p
+                            style="
+                                font-size: 2.5rem;
+                                text-align: left;
+                                margin: auto;
+                                font-weight: 300;
+                            "
+                        >
+                            Part 3
+                        </p>
+                    </section>
+                    <section>
+                        <p
+                            style="
+                                font-size: 5rem;
+                                text-align: left;
+                                position: absolute;
+                            "
+                        >
+                            Ensure
+                            <strong style="color: #bef264">stickiness</strong>
+                            of your solution
+                        </p>
+                    </section>
+                    <section>
+                        <img
+                            src="https://ui-patterns.com/uploads/image/file/4262/best_hook-model.jpg"
+                            height="600"
+                        />
+                    </section>
+                    <section>
+                        <p
+                            style="
+                                font-size: 4rem;
+                                text-align: left;
+                                bottom: -15rem;
+                            "
+                        >
+                            1.
+                            <strong style="color: #bef264">Triggers</strong>
+                        </p>
+                        <ul>
+                            <li style="margin-bottom: 20px">
+                                <strong style="color: #bef264">Actuator</strong>
+                                of behaviour. Akin to spark plug.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                <strong style="color: #bef264"
+                                    >External trigger</strong
+                                >
+                                = notifications (email/push/messages),
+                                invitations.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                <strong style="color: #bef264"
+                                    >Internal trigger</strong
+                                >
+                                = user's emotions, thoughts &amp; and memory
+                                associations (positive &amp; negative).
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                <strong style="color: #bef264"
+                                    >Internal > External</strong
+                                >. End goal = Switch from external to internal
+                                triggers over time (habit).
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <p
+                            style="
+                                font-size: 4rem;
+                                text-align: left;
+                                bottom: -15rem;
+                            "
+                        >
+                            2.
+                            <strong style="color: #bef264">Actions</strong>
+                        </p>
+                        <ul>
+                            <li style="margin-bottom: 20px">
+                                What is the
+                                <strong style="color: #bef264"
+                                    >minimum intended action</strong
+                                >
+                                you want from the user when engaging with your
+                                product?
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Done in
+                                <strong style="color: #bef264"
+                                    >anticipation</strong
+                                >
+                                of a reward.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Requires 2 things:
+                                <strong style="color: #bef264"
+                                    >Motivation</strong
+                                >
+                                &amp;
+                                <strong style="color: #bef264">Ability</strong>.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Motivation =
+                                <strong style="color: #bef264"
+                                    >Level of desire</strong
+                                >
+                                to take action.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Ability =
+                                <strong style="color: #bef264"
+                                    >Degree of hardship</strong
+                                >
+                                to take action.
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <img
+                            src="https://behaviormodel.org/wp-content/uploads/2020/08/Fogg-Behavior-Model.jpg"
+                        />
+                    </section>
+                    <!-- <section>
+                        <p
+                            style="
+                                font-size: 4rem;
+                                text-align: left;
+                                bottom: -15rem;
+                            "
+                        >
+                            3.
+                            <strong style="color: #bef264"
+                                >Variable Rewards</strong
+                            >
+                        </p>
+                        <img
+                            src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*uhOtDidDQwMYhGm7LDzVLQ.jpeg"
+                            height="445"
+                        />
+                    </section> -->
+                    <section>
+                        <p
+                            style="
+                                font-size: 4rem;
+                                text-align: left;
+                                bottom: -15rem;
+                            "
+                        >
+                            3.
+                            <strong style="color: #bef264"
+                                >Variable Rewards</strong
+                            >
+                        </p>
+                        <ul>
+                            <li style="margin-bottom: 20px">
+                                Ability to satisfy users' needs while leaving
+                                them wanting to re-engage with the product.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                <strong style="color: #bef264">Tribe</strong>:
+                                Social rewards fueled by connectedness with
+                                other people e.g. validation, acceptance.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                <strong style="color: #bef264">Hunt</strong>:
+                                Material rewards e,g. resources &amp;
+                                information.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                <strong style="color: #bef264">Self</strong>:
+                                Intrinsic rewards of mastery, competence &amp;
+                                completion e.g. personal gratification.
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <p
+                            style="
+                                font-size: 4rem;
+                                text-align: left;
+                                bottom: -15rem;
+                            "
+                        >
+                            4.
+                            <strong style="color: #bef264">Investments</strong>
+                        </p>
+                        <ul>
+                            <li style="margin-bottom: 20px">
+                                <strong style="color: #bef264"
+                                    >What users need to 'pay'</strong
+                                >
+                                to ensure the loop continues &amp; they keep
+                                using the product.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                <strong style="color: #bef264"
+                                    >Set users up for the next trigger</strong
+                                >, storing value &amp; creating preference.
+                            </li>
+                            <!-- <li style="margin-bottom: 20px" class="fragment">
+                                Boost the chances that the user will go through
+                                another trigger &amp; search for more rewards.
+                            </li> -->
+                            <li style="margin-bottom: 20px" class="fragment">
+                                Comes in the form of time, data, effort,
+                                subscription money, or social capital.
+                            </li>
+                            <li style="margin-bottom: 20px" class="fragment">
+                                e.g. Creating a loyalty program where users can
+                                collect points.
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <img
+                            src="https://images.ctfassets.net/lh3zuq09vnm2/1MJ4xyDhv0qfNcB9nyRO9k/66ef912ba2cb014fc996cc6fa1834e30/Image_2.png"
+                        />
+                    </section>
+                    <section>
+                        <blockquote
+                            cite="https://www.goodreads.com/work/quotes/27477502-hooked-how-to-build-habit-forming-products"
+                        >
+                            &ldquo;To change behavior, products must ensure the
+                            user
+                            <strong style="color: #bef264"
+                                >feels in control</strong
+                            >. People must want to use the service, not feel
+                            they have to.&rdquo;
+                        </blockquote>
+                        — Nir Eyal, Hooked: How to Build Habit-Forming Products
+                    </section>
+                    <section>
+                        <p
+                            style="
+                                font-size: 5rem;
+                                text-align: left;
+                                position: absolute;
+                            "
+                        >
+                            Develop your solution's
+                            <strong style="color: #bef264"
+                                >business model</strong
+                            >
+                        </p>
+                    </section>
+                    <section>
+                        <p
+                            style="
+                                font-size: 3.5rem;
+                                text-align: left;
+                                bottom: -15rem;
+                            "
+                        >
+                            Determine your
+                            <strong style="color: #bef264"
+                                >revenue sources</strong
+                            >
+                        </p>
+                        <img src="img/CleanShot 2023-03-05 at 21.09.59.png" />
+                    </section>
+                    <section>
+                        <div style="text-align: left">
+                            <p
+                                style="
+                                    font-size: 3.5rem;
+                                    text-align: left;
+                                    bottom: -15rem;
+                                "
+                            >
+                                Estimate your
+                                <strong style="color: #bef264"
+                                    >Market Size</strong
+                                >
+                            </p>
+                            <ul>
+                                <li style="margin-bottom: 20px">
+                                    Known as
+                                    <strong style="color: #bef264"
+                                        >Total Addressable Market (TAM)</strong
+                                    >
+                                </li>
+                                <li
+                                    style="margin-bottom: 20px"
+                                    class="fragment"
+                                >
+                                    3 methods:
+                                </li>
+                            </ul>
+                        </div>
+                        <img
+                            class="fragment"
+                            src="https://www.cognism.com/hs-fs/hubfs/total-addressable-market-cognism5px-01.png?width=683&name=total-addressable-market-cognism5px-01.png"
+                            height="350"
+                        />
+                    </section>
+                    <section>
+                        <img
+                            src="img/CleanShot 2023-03-05 at 21.34.49.png"
+                            height="400"
+                        />
+                    </section>
+                    <section>
+                        <div style="text-align: left">
+                            <p
+                                style="
+                                    font-size: 3.5rem;
+                                    text-align: left;
+                                    bottom: -15rem;
+                                "
+                            >
+                                Provide
+                                <strong style="color: #bef264"
+                                    >product comparison</strong
+                                >
+                                metrics
+                            </p>
+                            <ul>
+                                <li style="margin-bottom: 20px">
+                                    Give a fair assessment of your competitors.
+                                </li>
+                            </ul>
+                        </div>
+                        <img
+                            src="img/CleanShot 2023-03-05 at 21.43.14.png"
+                            height="400"
+                        />
+                    </section>
+                    <section>
+                        <p
+                            style="
+                                font-size: 5rem;
+                                text-align: left;
+                                position: absolute;
+                            "
+                        >
+                            Outline your
+                            <strong style="color: #bef264"
+                                >key success metrics</strong
+                            >
+                        </p>
+                    </section>
+                    <section>
+                        <img
+                            src="https://uxmag.com/wp-content/uploads/2022/03/How-to-measure-1-1024x903.png"
+                            alt=""
+                            width="650"
+                        />
+                    </section>
+                    <section>
+                        <img
+                            src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*rQezwmz0VyzULRdun42VVw.png"
+                            alt=""
+                        />
+                    </section>
+                    <section>
+                        <img src="img/Slide25.png" alt="" />
+                    </section>
+                </section>
+
+                <!-- Slido recap #3 -->
+                <section data-background="#212324">
+                    <iframe
+                        src="https://wall.sli.do/event/iHt6JQMjxZJNzVaGsqC88v"
+                        style="height: 50vh; width: 100vw; position: relative"
+                    ></iframe>
+                </section>
+
+                <section>
+                    <iframe
+                        src="https://padlet.com/mdrhmn99/lusdl09olgcqan7l"
+                        style="height: 50vh; width: 100vw; position: relative"
+                    ></iframe>
+                </section>
+
+                <section
+                    data-background-iframe="https://itsmeray.com/blog/how-we-hacked-our-way"
+                    data-background-interactive
+                >
+                    <div
+                        style="
+                            position: absolute;
+                            width: 40%;
+                            right: 0;
+                            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5),
+                                0 5px 25px rgba(0, 0, 0, 0.2);
+                            background-color: rgba(0, 0, 0, 0.9);
+                            color: #fff;
+                            padding: 0 20px 0 20px;
+                            font-size: 20px;
+                            text-align: left;
+                        "
+                    >
+                        <p>
+                            Read about my most recent hackathon journey at
+                            <a
+                                href="https://itsmeray.com/blog/how-we-hacked-our-way"
+                                >my blog!</a
+                            >
+                        </p>
+                    </div>
+                </section>
+
+                <section
+                    data-background-image="img/v-hack-bg.png"
+                    style="text-align: left"
+                >
+                    <p
+                        style="
+                            font-size: 4.5rem;
+                            text-align: left;
+                            margin: auto;
+                            font-weight: 600;
+                        "
+                    >
+                        Thank you!
+                    </p>
+                </section>
+            </div>
+        </div>
+
+        <script src="dist/reveal.js"></script>
+        <script src="plugin/zoom/zoom.js"></script>
+        <script src="plugin/notes/notes.js"></script>
+        <script src="plugin/search/search.js"></script>
+        <script src="plugin/markdown/markdown.js"></script>
+        <script src="plugin/highlight/highlight.js"></script>
+        <script>
+            // Also available as an ES module, see:
+            // https://revealjs.com/initialization/
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                center: true,
+                hash: true,
+
+                // Learn about plugins: https://revealjs.com/plugins/
+                plugins: [
+                    RevealZoom,
+                    RevealNotes,
+                    RevealSearch,
+                    RevealMarkdown,
+                    RevealHighlight,
+                ],
+            });
+        </script>
+    </body>
 </html>
